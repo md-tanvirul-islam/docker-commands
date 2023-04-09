@@ -1,0 +1,4 @@
+1. docker ps
+Description: command to list active container.
+2. docker run -it a-container-name
+Description: Start a container using name.
