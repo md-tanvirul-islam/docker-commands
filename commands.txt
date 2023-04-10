@@ -1,4 +1,8 @@
-1. docker ps
+1. docker build -t new-image-name .
+Description: Build an image using a Dockerfile. -t means tagging the new image with the following name. dot after image name means the current directory of the host machine is the location of the Dockerfile.
+2. docker images / docker image ls
+Description: to list all images.
+3. docker run -it a-image-name
+Description: Start a image using name. -it means interactive. 
+4. docker ps
 Description: command to list active container.
-2. docker run -it a-container-name
-Description: Start a container using name.
