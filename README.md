@@ -41,3 +41,5 @@ Ans:  When docker tries to build (docker build -t new-image-name) an image from 
     * CMD
     
     * ENTRYPOINT : to specify commands to execute when starting a container.
+4. What is usage of .dockerignore file?
+Ans: It is used to exclude files and directory for build context like .gitignore file. 
