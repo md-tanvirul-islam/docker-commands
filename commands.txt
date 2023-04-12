@@ -9,3 +9,6 @@ Description: command to list active container.
 5. docker run a-image-name 
 Description: It will run a container in shell session without interactive mode.
 6. docker run php-container php index.php
+7. docker image prune
+8. docker container prune
+9. docker image rm image-name1 image-name2 
