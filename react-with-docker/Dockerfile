@@ -5,4 +5,4 @@ COPY . .
 RUN npm install
 ENV API_URL=http://www.something.com
 EXPOSE 3000
-CMD npm start
+CMD ["npm" "start"]

@@ -6,3 +6,6 @@ Description: to list all images.
 Description: Start a image using name. -it means interactive. 
 4. docker ps
 Description: command to list active container.
+5. docker run a-image-name 
+Description: It will run a container in shell session without interactive mode.
+6. docker run php-container php index.php
