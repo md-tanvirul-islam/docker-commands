@@ -67,3 +67,10 @@ Ans:  When docker tries to build (docker build -t new-image-name) an image from 
 4. What is usage of .dockerignore file?
 Ans: It is used to exclude files and directory for build context like .gitignore file.
 
+5. What is container?
+Ans: It is a special process which has own file-system that is provided by image. Each container has own file-system which is invisible to other containers. 
+** If any container is deleted or destroyed, all data inside that container will be deleted. It is good to not to save important data in the docker container. It is better to save data in docker volume. 
+
+6. What is volume?
+Ans: Volume is a storage outside of the container. It can be a directory in the host or somewhere in the cloud.
+

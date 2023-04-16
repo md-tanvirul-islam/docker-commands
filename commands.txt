@@ -11,4 +11,28 @@ Description: It will run a container in shell session without interactive mode.
 6. docker run php-container php index.php
 7. docker image prune
 8. docker container prune
-9. docker image rm image-name1 image-name2 
+9. docker image rm image-name1 image-name2
+10. docker run -d image-name
+Destination: Run a container in background. Terminal Detach mode.  
+11. docker run -d --name blue-sky image-name
+Destination: Run a container in background with name. Terminal Detach mode.  
+12. docker logs container-id
+13. docker logs -n 4 container-id
+14. docker logs -n 5 -t container-id
+15. docker run -d -p 3000:3000 --name container-name image-name
+16. docker exec container-name system-command
+Destination: Execute a command in the running container.
+17. docker exec -it container-name sh
+Destination: Start a interactive shell session with the running container to execute different system command.
+18. docker stop container-name
+Description: To stop a running container.
+19. docker start container-name
+Description: To start a stop container.
+20. docker container rm container-name
+Description: To remove container. This container has to be stop.
+20. docker rm container-name
+Description: Shortcut to remove container. This container has to be stop.
+21. docker rm -f container-name
+Description: Shortcut to remove a running container.
+22. docker container prune
+Description: To remove all stopped container.
