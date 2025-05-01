@@ -1,7 +1,3 @@
-Here's a **beautified and structured version** of your `README.md` for your Docker journey, with clear headings, consistent formatting, and improved readability:
-
----
-
 # 🐳 My Docker Journey
 
 ## 🚀 Docker Workflow
